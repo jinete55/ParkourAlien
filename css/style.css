@@ -186,11 +186,11 @@ h3{
         grid-template-columns: 1fr;
     }
     .grid-5{
-        grid-template-columns:  1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
     .grid-05{ 
-        grid-template-columns:  1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
     .grid-cn{ 
