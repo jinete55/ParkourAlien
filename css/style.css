@@ -35,8 +35,6 @@ body {
 
 ul.tabs{
     margin: 0%;
-    width: 100% auto;
-    height: auto;
     background: rgb(0, 238, 255);
     list-style: none;
     display: flex;
@@ -114,14 +112,6 @@ h3{
     font-size:  30px;
 }
 
-.caja5:nth-child(1) p{
-    background: #fff;
-    text-align: center;
-    color: #000;
-    margin-bottom: 15px;
-    font-size: 35px
-}
-
 .container{
     max-width: 1200px;
     margin: auto;
@@ -163,37 +153,33 @@ h3{
     
 
 }
-/*-----------CAJA DE YOU TUBE----------------------*/
-
-.cajasY3{
-    display: table-cell;
-    padding: 20px;
-    width: 35%;
-    margin: 0%;
-}
 
 /*-----------tamaño de pagina minimo 560----------------------*/
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 400px){
 
     .header::after {
         
-        width: none;
-        flex-grow: 1;
-        flex-basis: 0;  
+        height: 35vh;
+       
     }
     .header-content{
-        width: 80%;
-        margin: 9%;
+        max-width: 90%;
+        margin: 8%;
+        position: absolute;
+        top: 30vh;
+    
+        
         
     }
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 400px){
 
     .secciones{
-        width: 90%;
+        width: 100%;
+        margin: 0%;
         
     }
     .grid-2{
@@ -213,7 +199,7 @@ h3{
     }
 
 }
-@media screen and (max-width: 560px){
+@media screen and (max-width: 400px){
     ul.tabs li{
         width: none;
         flex-grow: 1;
@@ -221,38 +207,24 @@ h3{
     }
 }
  
-@media screen and (max-width: 560px){
+@media screen and (max-width: 400px){
 
     ul.tabs a{
-        padding: 20px 0px;
-        font-size: 50px;
+        padding: 10px 0px;
+        font-size:1px;
         
     }
     ul.tabs li a .tab-text{
-        display: none;
-        font-size: 50px;
+        font-size: 18px;
+        
     }
     .tabs-container article{
-        padding: 80px;
+        padding: 100px;
         
     }
+    .container{
+        width: 100%;
+        padding: 0%;
+    }
 }
-@media (max-width: 1100px){
 
-    .grid-2{
-        grid-template-columns: 1fr;
-    }
-    .grid-5{
-        grid-template-columns: 1fr 1fr  1fr;
-        grid-gap: 20px;
-    }
-    .grid-05{ 
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-    }
-    .grid-cn{ 
-        grid-template-columns: 1fr;
-        
-    }
-
-}
