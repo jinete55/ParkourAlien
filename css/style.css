@@ -109,7 +109,7 @@ h3{
 /*---------------parrafoss.................*/
 
 .p{
-    font-size:  30px;
+    font-size:  25px;
 }
 
 .container{
@@ -120,18 +120,18 @@ h3{
 }
 .grid-2{
     display: grid;
-    grid-template-columns: 900px 300px;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 20px;
 }
 .grid-5{
     display: grid;
-    grid-template-columns: 220px 220px 220px 220px 220px;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
 }
 
 .grid-05{
     display: grid;
-    grid-template-columns: 220px 220px 220px 220px 220px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
 }
 .grid-cn{
@@ -186,11 +186,11 @@ h3{
         grid-template-columns: 1fr;
     }
     .grid-5{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns:  1fr;
         grid-gap: 20px;
     }
     .grid-05{ 
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns:  1fr;
         grid-gap: 20px;
     }
     .grid-cn{ 
